@@ -1,7 +1,5 @@
 # Swarnava-s-Portfolio
 
-# Portfolio Web Application – Swarnava Biswas
-
 This is my personal **portfolio web application**, showcasing my projects, skills, and professional journey as a front-end developer with interests in cybersecurity, data, and NLP. The application combines modern design with responsive layouts to provide a smooth user experience.
 
 ---
@@ -25,22 +23,6 @@ This is my personal **portfolio web application**, showcasing my projects, skill
 - **Version Control**: Git, GitHub  
 
 ---
-
-## Installation & Setup
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/portfolio-webapp.git
-2. Navigate to the project folder:
-   ```bash
-   cd portfolio-webapp
-3. Install dependencies (if using React or Node):
-   ```bash
-   npm install
-4. Start the application:
-   ```bash
-   npm start
-5. Open http://localhost:3000 in your browser to view your portfolio.
 
 ## Usage
 
