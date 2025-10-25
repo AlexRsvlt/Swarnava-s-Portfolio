@@ -36,3 +36,6 @@ This is my personal **portfolio web application**, showcasing my projects, skill
 
 © 2025 Swarnava Biswas. All Rights Reserved.
 This portfolio web application and all its contents, including text and media, are the intellectual property of Swarnava Biswas. Unauthorized copying, distribution, or commercial use is prohibited.
+
+Attribute:
+I want to owe thanks and gratitude to @Saboo24 for the repository.
