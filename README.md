@@ -1,6 +1,7 @@
 # Swarnava-s-Portfolio
 
 This is my personal **portfolio web application**, showcasing my projects, skills, and professional journey as a front-end developer with interests in cybersecurity, data, and NLP. The application combines modern design with responsive layouts to provide a smooth user experience.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/603c5871-cdda-48c1-b2a0-1da7cb3f15cd" />
 
 ---
 
