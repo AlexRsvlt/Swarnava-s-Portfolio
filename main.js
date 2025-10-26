@@ -161,7 +161,7 @@ function downloadCV() {
     function sendEmail(event) {
       event.preventDefault(); // prevent page reload
 
-      emailjs.send("service_ujlm6ae", "template_ifaQ3od", {
+      emailjs.send("service_ujlm6ae", "template_ifaq3od", {
          from_name: document.getElementsByName("from_name")[0].value,
          from_email: document.getElementsByName("from_email")[0].value,
          message: document.getElementsByName("message")[0].value
@@ -174,5 +174,6 @@ function downloadCV() {
         console.log(error);
       });
     }
+
 
 
