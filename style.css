@@ -641,7 +641,7 @@ hr {
 }
 
 .btn-send:hover {
-  background: #A7AAE1;
+  background: #F2AEBB;
 }
 
 /* Responsive */
@@ -938,3 +938,4 @@ body {
     overflow-x: hidden;
   }
 }
+
