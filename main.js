@@ -151,4 +151,26 @@ function downloadCV() {
     link.href = 'Swarnava_Biswas_CV.pdf';
     link.download = 'Swarnava_Biswas_CV.pdf';
     link.click();
+
   }
+
+(function(){
+      emailjs.init("rRX5Bwzt4d-dWjcza"); // replace with your EmailJS public key
+    })();
+    
+    function sendEmail(event) {
+      event.preventDefault(); // prevent page reload
+
+      emailjs.send("service_ujlm6ae", "template_ifaq3od", {
+        from_name: document.getElementById("name").value,
+        from_email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+      })
+      .then(function(response) {
+        alert("✅ Message sent successfully!");
+        document.getElementById("contactForm").reset();
+      }, function(error) {
+        alert("❌ Failed to send message. Try again.");
+        console.log(error);
+      });
+    }
