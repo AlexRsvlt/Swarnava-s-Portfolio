@@ -161,10 +161,10 @@ function downloadCV() {
     function sendEmail(event) {
       event.preventDefault(); // prevent page reload
 
-      emailjs.send("service_ujlm6ae", "template_ifaq3od", {
-        from_name: document.getElementById("name").value,
-        from_email: document.getElementById("email").value,
-        message: document.getElementById("message").value
+      emailjs.send("service_ujlm6ae", "template_ifaQ3od", {
+         from_name: document.getElementsByName("user_name")[0].value,
+         from_email: document.getElementsByName("user_email")[0].value,
+         message: document.getElementsByName("message")[0].value
       })
       .then(function(response) {
         alert("✅ Message sent successfully!");
@@ -174,3 +174,4 @@ function downloadCV() {
         console.log(error);
       });
     }
+
